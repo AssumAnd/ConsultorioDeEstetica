@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+header {
+    background-color: black;
+}
+
+
+
+
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding-top: 20PX;
+}
+
+.apresent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.apresent h1,
+p {
+    padding: 15px;
+    margin: 15PX;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 30px;
+}
+
+.apresentimg img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50% 0 0 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.text2 {
+    width: 60%;
+    background-color: aqua;
+    border-radius: 15px;
+    display: flex;
+}
+
+.vasco {
+    background-color: aqua;
+    border-radius: 100% 55%;
+}
+
+.two {
+    background-color: gray;
+    padding: 120px 0 20px 10px;
+}
+
+.capa h1,
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edinaelevascodagama {
+    background-color: red;
+    padding-top: 45px;
+}
+
+.card ul{
+color: rgb(255, 255, 255);
+font-size: 30px;
+}
