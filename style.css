@@ -8,9 +8,6 @@ header {
     background-color: black;
 }
 
-
-
-
 .inicio {
     display: flex;
     justify-content: space-between;
@@ -45,7 +42,6 @@ p {
     width: 60%;
     background-color: aqua;
     border-radius: 15px;
-    display: flex;
 }
 
 .vasco {
@@ -67,6 +63,7 @@ p {
 .edinaelevascodagama {
     background-color: red;
     padding-top: 45px;
+    
 }
 
 .card ul{
