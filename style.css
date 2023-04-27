@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
 
 header {
@@ -11,14 +12,17 @@ header {
 .inicio {
     display: flex;
     justify-content: space-between;
-    background-color: gray;
-    padding-top: 20PX;
+    background-color: rgb(175, 33, 33);
+    padding-top: 20px;
+
+
 }
 
 .apresent {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    display: block;
 
 }
 
@@ -33,40 +37,71 @@ p {
 .apresentimg img {
     width: 300px;
     height: 300px;
-    border-radius: 50% 0 0 50%;
+    border-radius: 0 0 50% 50%;
     display: flex;
     justify-content: center;
+    display: block;
 }
 
 .text2 {
-    width: 60%;
+    width: 50%;
     background-color: aqua;
     border-radius: 15px;
+    border: solid 1px white;
+
 }
 
 .vasco {
-    background-color: aqua;
-    border-radius: 100% 55%;
+    background-color: rgb(175, 33, 33);
+    border-radius: 100%
 }
 
 .two {
     background-color: gray;
-    padding: 120px 0 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fotos img {
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 50%;
+    border: solid 1px purple;
+}
+
+.didi2 {
+    margin-left: 200px;
 }
 
 .capa h1,
-.card {
+.list {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.edinaelevascodagama {
-    background-color: red;
-    padding-top: 45px;
-    
+
 }
 
-.card ul{
-color: rgb(255, 255, 255);
-font-size: 30px;
+.edinaelevascodagama {
+    background-color: red;
+
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 70px;
+
+}
+
+.list ul {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.experi {
+    background-color: green;
+    height: 2000px;
 }
