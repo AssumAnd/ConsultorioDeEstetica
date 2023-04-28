@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: solid 1px black
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
@@ -103,5 +104,22 @@ p {
 
 .experi {
     background-color: green;
-    height: 2000px;
+    height: 500px;
+}
+.naruto {
+    background-color: rgb(110, 16, 16);
+    width: max-content;
+    border-radius: 30px;
+
+}
+.trespri{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+.flamengo img{
+    border-radius: 50%;
+    width: 150px;
+    height: 15  0px;
+
 }
