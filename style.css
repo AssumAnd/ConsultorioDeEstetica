@@ -36,9 +36,9 @@ p {
 }
 
 .apresentimg img {
-    width: 300px;
-    height: 300px;
-    border-radius: 0 0 50% 50%;
+    width: 400px;
+    height: 400px;
+    border-rAdius: 0 0 50% 50%;
     display: flex;
     justify-content: center;
     display: block;
@@ -104,22 +104,33 @@ p {
 
 .experi {
     background-color: green;
-    height: 500px;
 }
+
 .naruto {
     background-color: rgb(110, 16, 16);
     width: max-content;
+    padding: 40px;
     border-radius: 30px;
-
 }
-.trespri{
+
+.trespri {
     display: flex;
     justify-content: space-around;
     padding-top: 70px;
 }
-.flamengo img{
+
+.flamengo img {
     border-radius: 50%;
     width: 150px;
-    height: 15  0px;
+    height: 15 0px;
+    
+}
 
+.outrosdois {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.flamengo{
+    width: min-content;
 }
