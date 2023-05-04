@@ -139,9 +139,10 @@ p {
 
 .card {
     background-color: rgb(110, 16, 16);
-    width: max-content;
-    padding: 40px;
+    width: 20%;
+    padding: 20px;
     border-radius: 30px;
+    margin: 20PX;
 }
 
 .trespri {
@@ -151,9 +152,9 @@ p {
 }
 
 .cardCont img {
-    border-radius: 50%;
-    width: 150px;
-    height: 15 0px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100PX;
 }
 
 .outrosdois {
@@ -164,8 +165,8 @@ p {
 
 .cardCont {
     font-size: smaller;
-    width: min-content;
-    height: min-content;
+    text-align: center;
+    
 }
 
 /*Section 4*/
@@ -196,3 +197,8 @@ p {
 }
 
 /*Section 5*/
+
+/*Section 6*/
+
+
+/*Section 6*/
