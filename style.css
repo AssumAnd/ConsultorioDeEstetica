@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-   
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
@@ -10,34 +10,22 @@ header {
     background-color: black;
 }
 
-.inicio {
+/*Section 1*/
+
+.section1 {
     display: flex;
     justify-content: space-between;
     background-color: rgb(175, 33, 33);
     padding-top: 20px;
-
-
-}
-.imgCom img{
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-
-}
-.imgCom{
-    display: flex;
-    align-items: center;
-}
-.icons {
-font-size: xx-large;
 }
 
 .apresent {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    display: block;
-
+    margin: 10PX;
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 30PX;
 }
 
 .apresent h1,
@@ -55,27 +43,31 @@ p {
     display: flex;
     justify-content: center;
     display: block;
+    margin: 10px;
 }
+
+.inicioimg {
+    background-color: rgb(175, 33, 33);
+    border-radius: 100%
+}
+
+/*Section 1*/
+
+
+/*Section 2*/
 
 .text2 {
     width: 50%;
     background-color: aqua;
     border-radius: 15px;
     border: solid 1px white;
-
 }
 
-.vasco {
-    background-color: rgb(175, 33, 33);
-    border-radius: 100%
-}
-
-.two {
+.section2 {
     background-color: gray;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .fotos img {
@@ -86,39 +78,66 @@ p {
     border: solid 1px purple;
 }
 
-.didi2 {
+.foto2 {
     margin-left: 200px;
 }
 
-.capa h1,
-.list {
+/*Section 2*/
+
+
+/*Section 3*/
+
+.imgCom img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.imgCom {
     display: flex;
     align-items: center;
-    justify-content: center;
-
 }
 
-.edinaelevascodagama {
-    background-color: red;
-    padding-bottom: 45px;
+.icons {
+    font-size: xx-large;
+}
+
+.section3 {
+    background-color: rgb(131, 131, 240);
+    color: white;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    text-align: center;
-    padding: 70px;
-
 }
 
-.list ul {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+.box1,
+.box2,
+.box3 {
+    background-color: rgb(184, 53, 53);
+    margin: 30px;
+    width: 60%;
+    padding: 10px;
 }
 
-.experi {
+.box2 {
+    margin-left: 500px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Section 3*/
+
+
+/*Section 4*/
+
+.section4 {
     background-color: green;
 }
 
-.naruto {
+.card {
     background-color: rgb(110, 16, 16);
     width: max-content;
     padding: 40px;
@@ -131,11 +150,10 @@ p {
     padding-top: 70px;
 }
 
-.flamengo img {
+.cardCont img {
     border-radius: 50%;
     width: 150px;
     height: 15 0px;
-
 }
 
 .outrosdois {
@@ -144,37 +162,37 @@ p {
     justify-content: space-around;
 }
 
-.flamengo {
+.cardCont {
     font-size: smaller;
     width: min-content;
     height: min-content;
 }
 
-.comentarios {
-    background-color: rgb(131, 131, 240);
-    color: white;
+/*Section 4*/
+
+
+/*Section 5*/
+
+.certif h1,
+.list {
     display: flex;
-    flex-direction: column;
-}
-
-.comentarios p,
-h2 {
-    margin: 0;
-}
-
-
-.box1, .box2, .box3 {
-    background-color: rgb(184, 53, 53);
-    margin: 30px;
-    width: 60%;
-    padding: 10px;
-}
-
-.box2{
-    margin-left: 500px;
-}
-.box3{
-    display: flex;
-    flex-direction: column  ;
+    align-items: center;
     justify-content: center;
 }
+
+.section5 {
+    background-color: red;
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 70px;
+}
+
+.list ul {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+/*Section 5*/
