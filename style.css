@@ -260,6 +260,9 @@ p {
 .text6{
     color: white
 }
+.mapa{
+    border-radius: 30px;
+}
 a{
     color: inherit;
 }
