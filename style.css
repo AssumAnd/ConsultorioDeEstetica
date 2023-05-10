@@ -8,7 +8,14 @@ header {
     background-color: #EEE6DF #BAA599 #D6BDBE #651716
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,300&family=Noto+Sans+JP:wght@300&family=Nunito&family=Raleway:ital,wght@1,300&display=swap');
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
 
 header {
     background-color: black;
@@ -54,7 +61,7 @@ p {
 .apresentimg img {
     width: 270px;
     height: 300px;
-    border-rAdius: 0 0 50% 50%;
+    border-rAdius: 50%;
     display: flex;
     justify-content: center;
     display: block;
@@ -248,6 +255,7 @@ p {
     margin-top: 45px;
     margin-bottom: 45PX;
 
+
 }
 
 .icons6 {
@@ -257,13 +265,17 @@ p {
     margin-top: 45px;
     text-decoration: none;
 }
-.text6{
+
+.text6 {
     color: white
 }
-.mapa{
+
+.mapa {
     border-radius: 30px;
 }
-a{
+
+a {
     color: inherit;
 }
+
 /*Section 6*/
