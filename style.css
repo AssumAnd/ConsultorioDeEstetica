@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1PX SOLID black;
 }
 
 
@@ -26,7 +27,6 @@ footer {
 }
 
 /*Section Carrossel*/
-
 
 
 /*Section Carrossel*/
@@ -279,3 +279,7 @@ a {
 }
 
 /*Section 6*/
+
+.publi1{
+    border: solid 3px yellow    ;
+}
