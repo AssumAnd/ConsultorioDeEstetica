@@ -1,8 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1PX SOLID black;
-}
+ }
 
 
 header {
@@ -10,6 +9,7 @@ header {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,300&family=Noto+Sans+JP:wght@300&family=Nunito&family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
 
 /*
 font-family: 'Montserrat', sans-serif;
@@ -135,11 +135,15 @@ p {
     display: flex;
     flex-direction: column;
 }
-
+.section3 p{
+    font-family: 'Quattrocento', serif;
+    font-style: italic;
+}
 .depoi {
     font-size: larger;
     display: flex;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .depoi h1 {
@@ -174,11 +178,19 @@ p {
 /*Section 4*/
 
 .section4 {
-    background-color: green;
+    background-color: #eee6df;
+}
+.textexp{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    color: #651716;
 }
 
 .card {
-    background-color: rgb(110, 16, 16);
+    background-color: #651716;
     width: 20%;
     padding: 20px;
     border-radius: 30px;
@@ -210,10 +222,18 @@ p {
 
 .cardCont {
     font-size: smaller;
+    color: #EEE6DF;
     text-align: center;
+    
+    font-family: 'Noto Sans JP', sans-serif;
 
 }
-
+.cardCont h1, h3{
+    margin-top: 10PX;
+    display: flex;
+    justify-content: center;
+    
+} 
 /*Section 4*/
 
 
@@ -264,6 +284,7 @@ p {
     justify-content: center;
     margin-top: 45px;
     text-decoration: none;
+    gap: 110px;
 }
 
 .text6 {
@@ -279,7 +300,3 @@ a {
 }
 
 /*Section 6*/
-
-.publi1{
-    border: solid 3px yellow    ;
-}
