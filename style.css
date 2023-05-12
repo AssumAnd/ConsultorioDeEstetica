@@ -21,7 +21,13 @@ font-family: 'Raleway', sans-serif; */
     width: 100%;
     height: 100%;
 }
+.textinit{
+    display: flex;
+}
 .imginit{
+    background-size: cover;
+    background-image: url(/assets/initial.jpg);
+    height: 750px;
 }
 header {
     background-color: black;
