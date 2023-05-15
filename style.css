@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-   
- }
+
+}
 
 
 header {
@@ -18,25 +18,28 @@ font-family: 'Noto Sans JP', sans-serif;
 font-family: 'Nunito', sans-serif;
  background: linear-gradient(to bottom, BLUE, red);
 font-family: 'Raleway', sans-serif; */
-.iconinit{
+.iconinit {
     font-size: 45px;
-    color:#BAA599
+    color: #BAA599
 }
 
-.textinit{
+.textinit {
     display: flex;
     flex-direction: column;
     margin-left: 930PX;
     padding-top: 150PX;
     width: 30%;
-    color:#651716
-    
+    color: #651716;
+    font-family: 'Raleway', sans-serif;
+
 }
-.initial{
+
+.initial {
     background-size: cover;
     background-image: url(/assets/initial.jpg);
     height: 650px;
 }
+
 header {
     background-color: black;
 }
@@ -154,10 +157,12 @@ p {
     display: flex;
     flex-direction: column;
 }
-.section3 p{
+
+.section3 p {
     font-family: 'Quattrocento', serif;
     font-style: italic;
 }
+
 .depoi {
     font-size: larger;
     display: flex;
@@ -192,30 +197,34 @@ p {
 }
 
 /*Section 3*/
-.antesedepois{
-    background-color:#651716;
-    
+.antesedepois {
+    background-color: #651716;
+
 }
-.fotosimagens{
+
+.fotosimagens {
     display: flex;
     justify-content: space-around;
     padding-top: 100px;
     padding-bottom: 100px;
+    color: #651716;
 }
-.fotosimagens img{
+
+.fotosimagens img {
     height: 400px;
     width: 400px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.781);
 }
-.fotosimagens img:hover{
-    border: 1px solid white;
-}
+
+
 
 /*Section 4*/
 
 .section4 {
     background-color: #eee6df;
 }
-.textexp{
+
+.textexp {
     display: flex;
     justify-content: center;
     padding-top: 90px;
@@ -259,16 +268,19 @@ p {
     font-size: smaller;
     color: #EEE6DF;
     text-align: center;
-    
+
     font-family: 'Noto Sans JP', sans-serif;
 
 }
-.cardCont h1, h3{
+
+.cardCont h1,
+h3 {
     margin-top: 10PX;
     display: flex;
     justify-content: center;
-    
-} 
+
+}
+
 /*Section 4*/
 
 
