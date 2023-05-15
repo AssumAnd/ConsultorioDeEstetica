@@ -70,7 +70,8 @@ footer {
     margin: 10PX;
     background-color: rgba(255, 255, 255, 0.514);
     border-radius: 30PX;
-    width: 60%;
+    width: 50%;
+    height: min-content;
 }
 
 .apresent h1,
@@ -81,13 +82,13 @@ p {
 }
 
 .apresentimg img {
-    width: 270px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-rAdius: 50%;
     display: flex;
     justify-content: center;
     display: block;
-    margin: 10px;
+    margin-right: 75px;
 }
 
 .inicioimg {
@@ -104,6 +105,7 @@ p {
     background-color: aqua;
     border-radius: 15px;
     border: solid 1px white;
+    text-align: justify
 }
 
 .section2 {
@@ -114,8 +116,8 @@ p {
 }
 
 .fotos img {
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     margin: 20px;
     border-radius: 50%;
     border: solid 1px purple;
@@ -126,7 +128,7 @@ p {
 }
 
 .fotos {
-    padding-top: 95px;
+    padding-top: 8px;
 }
 
 /*Section 2*/
@@ -214,9 +216,20 @@ p {
     height: 400px;
     width: 400px;
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.781);
+    border-radius: 10px;
 }
 
+.fotostexto {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
 
+.fotostexto h1 {
+    margin-top: 75px;
+    font-family: 'Montserrat', sans-serif;
+    color: #eee6df;
+}
 
 /*Section 4*/
 
@@ -239,6 +252,7 @@ p {
     padding: 20px;
     border-radius: 30px;
     margin: 20PX;
+
 }
 
 .card:hover {
@@ -268,7 +282,7 @@ p {
     font-size: smaller;
     color: #EEE6DF;
     text-align: center;
-
+    /*TEXT-ALIGN: JUSTIFY*/
     font-family: 'Noto Sans JP', sans-serif;
 
 }
