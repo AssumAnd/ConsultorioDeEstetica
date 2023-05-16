@@ -27,7 +27,7 @@ font-family: 'Raleway', sans-serif; */
 .textinit {
     display: flex;
     flex-direction: column;
-    margin-left: 1100PX;
+    margin-left: 100PX;
     padding-top: 150PX;
     width: 30%;
     color: #651716;
