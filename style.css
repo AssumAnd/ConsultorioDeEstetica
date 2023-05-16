@@ -1,7 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+
+
 }
+
 
 header {
     background-color: #EEE6DF #BAA599 #D6BDBE #651716
@@ -10,6 +13,7 @@ header {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,300&family=Noto+Sans+JP:wght@300&family=Nunito&family=Raleway:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Noto Sans JP', sans-serif;
@@ -58,29 +62,22 @@ footer {
 .section1 {
     display: flex;
     justify-content: space-between;
-    background-color: #EEE6DF;
+    align-items: center;
+    background-color: #eee6df;
     padding-top: 20px;
     padding: 50px;
 }
 
 .apresent {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin: 10PX;
     border-radius: 30PX;
-    width: 50%;
-    height: min-content;
-    margin-left: 45px;
+    color: #651716;
     text-transform: uppercase;
-}
-
-.apresent h1,
-p {
-    padding: 15px;
     font-family: 'Titillium Web', sans-serif;
-
     font-size: 30px;
+    width: 50%;
+    
 }
 
 .apresentimg img {
@@ -111,13 +108,15 @@ p {
 
 
 }
-mark{
+
+mark {
     background-color: #EEE6DF;
     color: #651716;
 }
-.text2 p{
+
+.text2 p {
     font-family: 'Titillium Web', sans-serif;
-    font-style:oblique;
+    font-style: oblique;
     color: black;
     text-align: center;
     font-size: 32px;
@@ -129,9 +128,9 @@ mark{
 .section2 {
     background: linear-gradient(to top, #ffffff, #D6BDBE, #651716);
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     align-items: center;
-    
+
 }
 
 .fotos img {
@@ -143,14 +142,14 @@ mark{
 }
 
 .foto2 {
-   margin-left: 150PX;
-   margin-top: 30px;
+    margin-left: 150PX;
+    margin-top: 30px;
 }
 
 .fotos {
-display: flex;
-margin-top: 10PX;
-  
+    display: flex;
+    margin-top: 10PX;
+
 }
 
 /*Section 2*/
