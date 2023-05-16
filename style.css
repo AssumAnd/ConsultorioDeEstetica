@@ -113,6 +113,10 @@ p {
 
 
 }
+mark{
+    background-color: #EEE6DF;
+    color: #651716;
+}
 .text2 p{
     font-family: 'Titillium Web', sans-serif;
     font-style:oblique;
