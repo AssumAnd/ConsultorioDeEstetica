@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 
+
 }
 
 
@@ -26,11 +27,12 @@ font-family: 'Raleway', sans-serif; */
 .textinit {
     display: flex;
     flex-direction: column;
-    margin-left: 930PX;
+    margin-left: 1100PX;
     padding-top: 150PX;
     width: 30%;
     color: #651716;
     font-family: 'Raleway', sans-serif;
+    width: 20%;
 
 }
 
@@ -61,6 +63,7 @@ footer {
     justify-content: space-between;
     background-color: #EEE6DF;
     padding-top: 20px;
+    padding: 50px;
 }
 
 .apresent {
@@ -72,6 +75,7 @@ footer {
     border-radius: 30PX;
     width: 50%;
     height: min-content;
+    margin-left: 45px;
 }
 
 .apresent h1,
@@ -102,17 +106,19 @@ p {
 
 .text2 {
     width: 50%;
-    background-color: aqua;
+    background-color: #f8f3ef;
     border-radius: 15px;
-    border: solid 1px white;
-    text-align: justify
+    border: solid 1px #651716;
+    text-align: justify;
+    margin-right: 45px;
 }
 
 .section2 {
-    background-color: #fc8217;
+    background: linear-gradient(to top, #ffffff, #D6BDBE, #651716);
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .fotos img {
