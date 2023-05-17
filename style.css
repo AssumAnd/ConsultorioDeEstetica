@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-
+    border: 1px solid black;
 
 }
 
@@ -88,13 +88,11 @@ footer {
     display: flex;
     justify-content: center;
     display: block;
-    margin-right: 100px;
+    margin-right: 90px;
 
 }
 
-.inicioimg {
-    border-radius: 100%
-}
+
 
 /*Section 1*/
 
@@ -390,7 +388,37 @@ a {
 
 @media screen and (max-width: 900px){
     .section5{
-        background-color: white;
+        background-color: rgb(19, 74, 255);
+    }
+    .trespri{
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+    .card{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .outrosdois{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .fotosimagens IMG{
+
+        width: 250px;
+        height: 250PX;
+
+    }
+    .box2{
+        margin-left: 250px;
+    }
+    .fotos img{
+        height: 250px;
+        width: 250px;
     }
     
 }
