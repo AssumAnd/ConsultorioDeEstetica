@@ -1,8 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid black;
-
 }
 
 
@@ -330,13 +328,15 @@ h3 {
 }
 
 .section5 {
-    background-color: red;
+    background-image: url(/assets/close-up-mulher-asiatica-com-sorriso-largo-e-copia-espaco.jpg);
+    background-size: cover;
     padding-bottom: 45px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     padding: 70px;
+    height: 500px;
 }
 
 .list ul {
@@ -370,6 +370,7 @@ h3 {
     margin-top: 45px;
     text-decoration: none;
     gap: 110px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .text6 {
