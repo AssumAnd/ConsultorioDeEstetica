@@ -299,11 +299,11 @@ mark {
 }
 
 .cardCont {
-    font-size: smaller;
     color: #EEE6DF;
     text-align: center;
     /*TEXT-ALIGN: JUSTIFY*/
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    
 
 }
 
@@ -320,29 +320,25 @@ h3 {
 
 /*Section 5*/
 
-.certif h1,
-.list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.cont5 {
+    display: flex; 
+    width: 35%;
+    margin-left: 600px;
+    padding-top: 190px;
+    padding: 90px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #651716;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .section5 {
     background-image: url(/assets/close-up-mulher-asiatica-com-sorriso-largo-e-copia-espaco.jpg);
     background-size: cover;
-    padding-bottom: 45px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 70px;
     height: 500px;
 }
 
-.list ul {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-}
+
 
 /*Section 5*/
 
@@ -387,7 +383,7 @@ a {
 
 /*Section 6*/
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1300px){
     .section5{
         background-color: rgb(19, 74, 255);
     }
