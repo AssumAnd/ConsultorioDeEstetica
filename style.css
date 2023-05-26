@@ -76,7 +76,7 @@ footer {
     font-size: 30px;
     width: 55%;
     margin-left: 45px;
-    
+
 }
 
 .apresentimg img {
@@ -303,7 +303,7 @@ mark {
     text-align: center;
     /*TEXT-ALIGN: JUSTIFY*/
     font-family: 'Courier New', Courier, monospace;
-    
+
 
 }
 
@@ -321,7 +321,7 @@ h3 {
 /*Section 5*/
 
 .cont5 h2 {
-    display: flex; 
+    display: flex;
     width: 20%;
     margin-left: 900px;
     padding-top: 300px;
@@ -348,7 +348,7 @@ h3 {
     flex-direction: column;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Titillium Web', sans-serif;   
+    font-family: 'Titillium Web', sans-serif;
 
 }
 
@@ -383,48 +383,175 @@ a {
 }
 
 /*Section 6*/
-@media screen and (max-width: 1300px){
-    .fotosimagens IMG{
-        width: 250px;
-        height: 250PX;
+@media screen and (max-width: 1350px) {
+    .fotosimagens IMG {
+        width: 200px;
+        height: 200PX;
     }
-    .cont5 h2{
-    font-size: larger;
-       margin-left:450px;
+
+    .cont5 h2 {
+        font-size: larger;
+        margin-left: 700px;
     }
-    
+
 }
-@media screen and (max-width: 900px){
-    
-    .trespri{
+
+@media screen and (max-width: 1210px) {
+
+    .trespri {
         align-items: center;
         flex-direction: column;
         display: flex;
     }
-    .card{
+
+    .card {
         width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
     }
-    .outrosdois{
+
+    .outrosdois {
         flex-direction: column;
         display: flex;
         align-items: center;
     }
-    .fotosimagens IMG{
+
+    .fotosimagens IMG {
 
         width: 250px;
         height: 250PX;
 
     }
-    .box2{
+
+    .box2 {
         margin-left: 250px;
     }
-    .fotos img{
+
+    .fotos img {
         height: 250px;
         width: 250px;
     }
-    
+
+    .cont5 h2 {
+        font-size: larger;
+        margin-left: 30PX;
+    }
+
+
+}
+
+@media screen and (max-width:850px) {
+    .initial {
+        background-position: 50%;
+    }
+
+    .fotos img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .fotosimagens img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .apresentimg img {
+        height: 250px;
+        width: 250px;
+        margin: 0;
+    }
+
+    .apresent {
+        margin: 0;
+        padding: 0;
+    }
+
+    .box2 {
+        margin-left: 100px;
+    }
+
+    .icons {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .fotostexto H1 {
+        margin: 0;
+        display: flex;
+        align-items: center;
+
+        justify-content: center;
+    }
+
+    .initial {
+        background-position: 40%;
+
+    }
+
+    .textinit {
+        padding-top: 250PX;
+        margin-left: 15px;
+    }
+
+    .fotos {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .fotos img {
+        margin: 0;
+    }
+
+    .fotosimagens {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .fotosimagens img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .text2 {
+        width: 90%;
+        padding-bottom: 20px;
+    }
+
+    .text2 p {
+        margin: 0;
+        padding: 0;
+        font-size: x-large;
+    }
+
+    .card {
+        width: 70%;
+    }
+
+    .cont5 h2 {
+        font-size: smaller;
+        margin: 0;
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .fotostexto h1 {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .section1 {
+        flex-direction: column-reverse;
+    }
+
+    .apresent {
+        width: 100%;
+        font-size: x-large;
+        text-align: center;
+        margin: 20px;
+    }
 }
