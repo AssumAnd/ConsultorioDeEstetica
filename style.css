@@ -383,11 +383,19 @@ a {
 }
 
 /*Section 6*/
-
 @media screen and (max-width: 1300px){
-    .section5{
-        background-color: rgb(19, 74, 255);
+    .fotosimagens IMG{
+        width: 250px;
+        height: 250PX;
     }
+    .cont5 h2{
+    font-size: larger;
+       margin-left:450px;
+    }
+    
+}
+@media screen and (max-width: 900px){
+    
     .trespri{
         align-items: center;
         flex-direction: column;
