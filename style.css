@@ -320,11 +320,11 @@ h3 {
 
 /*Section 5*/
 
-.cont5 {
+.cont5 h2 {
     display: flex; 
-    width: 35%;
-    margin-left: 600px;
-    padding-top: 190px;
+    width: 20%;
+    margin-left: 900px;
+    padding-top: 300px;
     padding: 90px;
     font-family: 'Titillium Web', sans-serif;
     color: #651716;
@@ -348,6 +348,7 @@ h3 {
     flex-direction: column;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;   
 
 }
 
