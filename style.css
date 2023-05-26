@@ -37,7 +37,7 @@ font-family: 'Raleway', sans-serif; */
 
 .initial {
     background-size: cover;
-    background-image: url(/assets/initial.jpg);
+    background-image: url(./assets/initial.jpg);
     height: 900px;
 }
 
