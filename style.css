@@ -1,4 +1,4 @@
-* {
+*   {
     margin: 0;
     padding: 0;
 }
@@ -12,12 +12,7 @@ header {
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
 
-/*
-font-family: 'Montserrat', sans-serif;
-font-family: 'Noto Sans JP', sans-serif;
-font-family: 'Nunito', sans-serif;
- background: linear-gradient(to bottom, BLUE, red);
-font-family: 'Raleway', sans-serif; */
+
 .iconinit {
     font-size: 45px;
     color: #BAA599
@@ -41,18 +36,8 @@ font-family: 'Raleway', sans-serif; */
     height: 900px;
 }
 
-header {
-    background-color: black;
-}
-
-footer {
-    background-color: black;
-}
-
-/*Section Carrossel*/
 
 
-/*Section Carrossel*/
 
 
 /*Section 1*/
@@ -86,7 +71,8 @@ footer {
     display: flex;
     justify-content: center;
     display: block;
-    margin-right: 90px;
+    margin-left: 100px;
+
 
 }
 
@@ -135,7 +121,7 @@ mark {
     width: 350px;
     margin: 20px;
     border-radius: 50%;
-    border: solid 1px purple;
+   
 }
 
 .foto2 {
@@ -163,6 +149,7 @@ mark {
 .imgCom {
     display: flex;
     align-items: center;
+
 }
 
 .icons {
@@ -235,7 +222,7 @@ mark {
 .fotosimagens img {
     height: 400px;
     width: 400px;
-    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.781);
+    box-shadow: 1px 1px 1px #D6BDBE(0, 0, 0);
     border-radius: 10px;
 }
 
@@ -333,7 +320,7 @@ h3 {
 }
 
 .section5 {
-    background-image: url(./assets/close-up-mulher-asiatica-com-sorriso-largo-e-copia-espaco.jpg);
+    background-image: url(./assets/backgrounds5.jpg);
     background-size: cover;
     height: 500px;
 }
@@ -447,6 +434,7 @@ a {
         background-position: 50%;
     }
 
+
     .fotos img {
         height: 200px;
         width: 200px;
@@ -478,22 +466,22 @@ a {
 }
 
 @media screen and (max-width:650px) {
-    .fotostexto H1 {
-        margin: 0;
-        display: flex;
+    .fotostexto h1 {
         align-items: center;
+        text-align: center;
 
-        justify-content: center;
     }
 
     .initial {
         background-position: 40%;
+       
 
     }
 
     .textinit {
         padding-top: 250PX;
         margin-left: 15px;
+        font-size:small
     }
 
     .fotos {
@@ -509,11 +497,12 @@ a {
         display: flex;
         align-items: center;
         flex-direction: column;
+   
     }
 
     .fotosimagens img {
-        height: 250px;
-        width: 250px;
+        height: 300px;
+        width: 300px;
     }
 
     .text2 {
@@ -554,4 +543,20 @@ a {
         text-align: center;
         margin: 20px;
     }
+
+    .depoi h1 {
+        align-items: center;
+        text-align: center;
+    }
+
+    .textexp h1 {
+        align-items: center;
+        text-align: center;
+    }
+
+    .section5 {
+        background-position: 1%;
+    }
+
+ 
 }
