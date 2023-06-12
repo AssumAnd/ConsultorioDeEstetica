@@ -57,7 +57,7 @@ header {
     justify-content: center;
     border-radius: 30PX;
     color: #651716;
-    text-transform: uppercase;
+ 
     font-family: 'Titillium Web', sans-serif;
     font-size: 30px;
     width: 55%;
@@ -89,6 +89,7 @@ header {
     border-radius: 15px;
     color: rgb(36, 1, 1);
     margin-top: 90px;
+    
 
 
 }
