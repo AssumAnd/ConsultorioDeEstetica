@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 
-
 }
 
 
@@ -437,6 +436,25 @@ h3 {
     height: 700px;
 }
 
+.btn{
+    background: none;
+    border: 1PX solid #651716;
+    background-color: #fff;
+    height: 50px;
+    width: 150px;
+    border-radius: 35PX;
+    font-size: 1rem;
+    color: #651716;
+    transition: 0.2S;
+    cursor: pointer;
+    margin-left: 980px;
+}
+.btn:hover {
+    background: #651716;
+    color: #fff;    
+  
+
+}
 
 
 /*Section 5*/
@@ -571,6 +589,7 @@ a {
     outline: none;
     background: #651716;
     color: #fff;
+
 }
 
 
@@ -809,7 +828,9 @@ a {
     .form input,
     .form textarea {
         width: 91%;
-
-
+    }
+    .btn{
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
