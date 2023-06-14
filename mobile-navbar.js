@@ -1,43 +1,22 @@
-class MobileNavbar {
-  constructor(mobileMenu, navList, navLinks) {
-    this.mobileMenu = document.querySelector(mobileMenu);
-    this.navList = document.querySelector(navList);
-    this.navLinks = document.querySelectorAll(navLinks);
-    this.activeClass = "active";
-
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  animateLinks() {
-    this.navLinks.forEach((link, index) => {
-      link.style.animation
-        ? (link.style.animation = "")
-        : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3
-          }s`);
-    });
-  }
-
-  handleClick() {
-    this.navList.classList.toggle(this.activeClass);
-    this.mobileMenu.classList.toggle(this.activeClass);
-    this.animateLinks();
-  }
-
-  addClickEvent() {
-    this.mobileMenu.addEventListener("click", this.handleClick);
-  }
-
-  init() {
-    if (this.mobileMenu) {
-      this.addClickEvent();
+let navigator = document.getElementById("navzao")
+function openMenu() {
+    if(navigator.classList.contains('active')){
+      navigator.classList.remove('active')
+      navigator.classList.add('remove-nav-list')
+      document.body.classList.remove('menu-expanded')
     }
-    return this;
+    else{
+      navigator.classList.add('active')
+      navigator.classList.remove('remove-nav-list')
+      document.body.classList.add('menu-expanded')
+    
+    }
+}  
+
+function closeMenu(){
+  if(navigator.classList.contains('active')){
+    navigator.classList.remove('active')
+    navigator.classList.add('remove-nav-list')
+    document.body.classList.remove('menu-expanded')
   }
 }
-
-const mobileNavbar = new MobileNavbar(
-  ".mobile-menu",
-  ".nav-list",
-  ".nav-list li",
-);
-mobileNavbar.init();

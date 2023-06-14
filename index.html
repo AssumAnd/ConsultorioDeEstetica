@@ -15,19 +15,20 @@
 <header>
     <nav>
         <a class="logo" href="/">Juliane Moledo</a>
-        <div class="mobile-menu">
+        <div class="mobile-menu" onclick="openMenu()">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
         </div>
-        <ul class="nav-list">
-            <li><a href="#sobre"><mark>Sobre</mark></a></li>
-            <li><a href="#depoimentos"><mark>Depoimentos</mark></a></li>
-            <li><a href="#procedimentos"><mark>Procedimentos</mark></a></li>
-            <li><a href="#local"><mark>Marcar Consulta</mark></a></li>
+        <ul id="navzao" class="nav-list remove-nav-list">
+            <li><a href="#sobre" onclick="closeMenu()">Sobre</a></li>
+            <li><a href="#depoimentos" onclick="closeMenu()">Depoimentos</a></li>
+            <li><a href="#procedimentos" onclick="closeMenu()">Procedimentos</a></li>
+            <li><a href="#local" onclick="closeMenu()">Local</a></li>
         </ul>
     </nav>
 </header>
+
 
 <main>
 
