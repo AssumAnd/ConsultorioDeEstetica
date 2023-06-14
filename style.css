@@ -434,7 +434,7 @@ h3 {
 .section5 {
     background-image: url(./assets/backgrounds5.jpg);
     background-size: cover;
-    height: 500px;
+    height: 700px;
 }
 
 
@@ -697,6 +697,87 @@ a {
         font-size: 1.5rem;
         height: 550px;
     }
+    .formulario{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .form input, 
+.form textarea{
+    width: 40%;
+}
+}
 
+.formulario{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    
+}
 
+.form{
+width: 100%;
+max-width: 32rem;
+font-size: 1.125rem;
+
+}
+
+.form label, .form input, .form textarea, .form button {
+    display: block;
+    width: 100%;
+}
+
+.form label{
+    color: #651716;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.form input, 
+.form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border:  1px solid transparent;
+    border-radius: 8px;
+    transition: border-color;
+    box-shadow: 0.2s;
+    border: 0.5px solid #651716;
+}
+.form textarea{
+    min-height: 13rem;
+    resize: vertical;
+
+}
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus{
+    outline: none;
+    border-color: #e7d8d7;
+    box-shadow: 0 0 0 3px #651716;
+}
+.form button{
+    display: block;
+    padding:  1rem;
+    box-shadow: 0 0 0 3px #651716;
+    background: #eee6df;
+    color: #651716;
+    font:  inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.form button:hover,
+.form button:focus{
+    outline: none;
+    background: #651716;
+    color: #fff;
 }
