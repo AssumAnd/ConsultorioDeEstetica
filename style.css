@@ -460,6 +460,7 @@ h3 {
 /*Section 5*/
 
 /*Section 6*/
+
 .cont6 {
     display: flex;
     flex-direction: column;
@@ -504,11 +505,11 @@ a {
 .form1 {
     display: flex;
     justify-content: center;
-    padding-top: 90px;
     padding-bottom: 50px;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     color: #651716;
+    padding-bottom: 2rem;
 }
 
 .formulario {
@@ -517,8 +518,7 @@ a {
     justify-content: center;
     flex-direction: column;
     font-family: sans-serif;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding: 5rem;
 
 }
 
