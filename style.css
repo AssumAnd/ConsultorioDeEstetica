@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 
@@ -85,14 +85,15 @@ nav {
         position: absolute;
         top: 8vh;
         right: 0;
-        width: 100vw;
-        height: 100vh;
+        width: 45vw;
+        height: 70vh;
         background: #eee6df;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
         /* transform: translateX(100%); */
         transition: transform 0.3s ease-in;
+        color: #651716;
         
     }
 
@@ -477,8 +478,8 @@ h3 {
 
 /*Section 6*/
 .section6{
-    background-color: #651716;
-    color: #ffffff;
+    background-color: #eee6df;
+    color: #651716;
 }
 .cont6 {
     display: flex;
@@ -773,7 +774,7 @@ a {
     }
 
     .card {
-        width: 70%;
+        width: 75%;
     }
 
     .cont5 h2 {
