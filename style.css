@@ -327,22 +327,22 @@ mark {
 
 /*Section 3*/
 
-.imgCom img {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
+.imgCom i {
+    font-size: 50px;
+
 }
 
 .imgCom {
     display: flex;
     align-items: center;
+    margin-left: 20PX;
 
 }
 
 .icons {
-    font-size: 50px;
+    font-size: 30px;
     display: flex;
-    margin-left: 45px;
+    margin: 20px;
 }
 
 .section3 {
@@ -353,8 +353,7 @@ mark {
 }
 
 .section3 p {
-    font-family: 'Quattrocento', serif;
-    font-style: italic;
+    margin: 20PX;
 }
 
 .depoi {
