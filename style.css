@@ -373,7 +373,7 @@ mark {
 .box2,
 .box3 {
     background-color: #EEE6DF;
-    margin: 20px;
+    margin: 30px;
     width: 62%;
     padding: 20px;
     border-radius: 45PX;
@@ -851,13 +851,17 @@ a {
 
     .section1 {
         flex-direction: column-reverse;
+        padding: 0;
     }
 
     .apresent {
         width: 100%;
-        font-size: x-large;
         text-align: center;
-        margin: 20px;
+        margin: 50px;
+
+    }
+    .apresent p{
+        font-size: 1em;
     }
 
     .depoi h1 {
@@ -881,17 +885,14 @@ a {
     }
 
     .box1,
-    .box2 {
+    .box2, .box3 {
         font-size: 1.5rem;
-        height: 600px;
-        width: min-content;
+       height: max-content;
+        width: fit-content;
+        margin: 25px;
     }
 
-    .box3 {
-        font-size: 1.5rem;
-        height: 600px;
-        width: 70%;
-    }
+ 
 
     .formulario {
         display: flex;
