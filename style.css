@@ -385,7 +385,6 @@ mark {
 }
 
 .box3 {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 45px;
