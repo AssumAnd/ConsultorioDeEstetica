@@ -3,10 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-footer{
-    height: 50px;
+header{
     background-color: #651716;
+    color: #651716;
+}
+footer{
+    background-color: #651716;
+    color: #651716
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 80px;
+
+}
+
+.login-main-container{
+    display: flex;
+    align-items: center;
+
 }
 .thankyou-wrapper {
     width: 50%;
@@ -40,10 +57,10 @@ footer{
     display: block;
     text-decoration: none;
     width: 250px;
-    background: #E47425;
+    background: #651716;
     margin: 10px auto 0px;
     padding: 15px 20px 15px;
-    border-bottom: 5px solid #F96700;
+    border-bottom: 5px solid #651716;
 }
 
 .thankyou-wrapper a:hover {
@@ -53,8 +70,26 @@ footer{
     display: block;
     text-decoration: none;
     width: 250px;
-    background: #F96700;
+    background: #BAA599;
     margin: 10px auto 0px;
     padding: 15px 20px 15px;
-    border-bottom: 5px solid #F96700;
+    border-bottom: 5px solid #BAA599
+}
+
+@media screen and (max-width: 650px) {
+    .login-main-container{
+        padding: 0;
+        margin: 20px;
+
+    }
+    .main-container{
+        padding: 0;
+        margin: 0;
+    }
+    .thankyou-wrapper{
+        width: 90%;
+        padding-top: 80px;
+        align-items: center;
+    }
+    
 }
