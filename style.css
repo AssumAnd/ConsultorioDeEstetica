@@ -770,6 +770,7 @@ a {
     .apresent {
         margin: 0;
         padding: 0;
+        flex-direction: column;
     }
 
     .box2 {

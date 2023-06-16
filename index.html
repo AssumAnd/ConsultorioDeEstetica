@@ -51,24 +51,23 @@
                 <p>
                     A Dra. Juliane é uma médica altamente qualificada, especializada em cuidados com a pele e
                     procedimentos estéticos.</p>
-                    <div class="carrosel">
-                
-                        <div class="slider-wrapper">
-                            <
-                            <div class="slider">
-                                <div id="slide-1" class="slide" style="background-image: url(./assets/BOTOX3.jpg);"></div>
-                                <div id="slide-2" class="slide" style="background-image: url(./assets/palpebra.jpg);"></div>
-                                <div id="slide-3" class="slide" style="background-image: url(./assets/fio.jpg);"></div>
-                            </div>
-                
-                            <div class="dots">
-                                <a href="#slide-1"></a>
-                                <a href="#slide-2"></a>
-                                <a href="#slide-3"></a>
-                            </div>
-                           >
-                        </div>
+                <div class="carrosel">
+
+                    <div class="slider-wrapper">
+                        < <div class="slider">
+                            <div id="slide-1" class="slide" style="background-image: url(./assets/BOTOX3.jpg);"></div>
+                            <div id="slide-2" class="slide" style="background-image: url(./assets/palpebra.jpg);"></div>
+                            <div id="slide-3" class="slide" style="background-image: url(./assets/fio.jpg);"></div>
                     </div>
+
+                    <div class="dots">
+                        <a href="#slide-1"></a>
+                        <a href="#slide-2"></a>
+                        <a href="#slide-3"></a>
+                    </div>
+                    >
+                </div>
+            </div>
             </div>
             <div class="inicioimg">
 
@@ -84,7 +83,7 @@
                     atenção
                     individualizada.
                     ela entende que <mark class="mark1">cada paciente é único, com necessidades e desejos
-                        específicos.</mark> sua
+                        específicos.</mark> Sua
                     abordagem holística leva em consideração sua história médica, estilo de vida e objetivos pessoais
                     para
                     desenvolver um plano de tratamento personalizado que seja <mark class="mark1">perfeito.</mark>
@@ -252,8 +251,9 @@
         </section>
 
         <section class="formulario">
-            <h1 class="form1">FORMULÁRIO DE CONTATO</h1>
+            <h1 class="form1">PRÉ AGENDAMENTO</h1>
             <form action="https://formsubmit.co/anderson.assum12@gmail.com" method="POST" class="form">
+                <input type="hidden" name="_captcha" value="false">
                 <div class="formControl">
                     <label for="name">Nome:</label>
                     <input type="text" name="name" id="name" required>
@@ -270,7 +270,8 @@
                     <label for="message">Mensagem</label>
                     <textarea name="message" id="message" placeholder="Escreva aqui" required></textarea>
                 </div>
-                <button type="submit">Enviar</button>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/pages/agradecimento.html">
+                    <button type="submit">Enviar</button>
             </form>
         </section>
 
