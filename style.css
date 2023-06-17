@@ -166,20 +166,24 @@ nav {
 
 .section1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #eee6df;
     padding-top: 20px;
     padding: 50px;
 }
+.apresent p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .apresent {
     display: flex;
-    flex-direction: column;
-
+    justify-content: space-between;
     border-radius: 30PX;
     color: #651716;
-
+    margin: 50PX;
     font-family: 'Titillium Web', sans-serif;
     font-size: 30px;
     width: 55%;
@@ -212,6 +216,7 @@ nav {
 
 .slider-wrapper {
     position: relative;
+    color: #eee6df
 }
 
 .slider {
@@ -683,6 +688,10 @@ a {
     .section5 {
         background-position: 1%;
     }
+    .btn{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 
 }
 
@@ -761,8 +770,9 @@ a {
     }
 
     .apresent {
-        margin: 0;
-        padding: 0;
+        width: 100%;
+        text-align: center;
+        margin: 50px;
         flex-direction: column;
     }
 
@@ -772,6 +782,12 @@ a {
 
     .icons {
         font-size: 30px;
+    }
+    .slider-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30PX;
     }
 }
 
@@ -926,6 +942,7 @@ a {
         align-items: center;
         justify-content: center;
         padding-top: 30PX;
+        color: #651716;
     }
     .slider {
         --slide-width: clamp(300px, 75vw, 100px);
