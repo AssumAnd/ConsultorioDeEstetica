@@ -218,7 +218,7 @@ nav {
 }
 
 .slider {
-    --slide-width: clamp(300px, 75vw, 100px);
+    --slide-width: clamp(350px, 75vw, 100px);
     --slide-height: clamp(300px, 75vh, 100px);
 
     display: grid;
@@ -877,7 +877,7 @@ a {
 
     }
     .apresent p{
-        font-size: 1em;
+        font-size: x-large;
         padding: 13PX;
 
     }
