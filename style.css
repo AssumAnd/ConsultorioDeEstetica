@@ -166,28 +166,26 @@ nav {
 
 .section1 {
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color: #eee6df;
     padding-top: 20px;
-    padding: 50px;
 }
 .apresent p{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    font-size: 35px;
 }
 
 .apresent {
     display: flex;
-    justify-content: space-between;
     border-radius: 30PX;
     color: #651716;
     margin: 50PX;
     font-family: 'Titillium Web', sans-serif;
     font-size: 30px;
-    width: 55%;
-    margin-left: 45px;
+    justify-content: space-around;
 
 }
 .carrossel,
@@ -220,8 +218,8 @@ nav {
 }
 
 .slider {
-    --slide-width: clamp(200px, 75vw, 100px);
-    --slide-height: clamp(200px, 75vh, 100px);
+    --slide-width: clamp(300px, 75vw, 100px);
+    --slide-height: clamp(300px, 75vh, 100px);
 
     display: grid;
     grid-auto-flow: column;
@@ -752,7 +750,9 @@ a {
         background-position: 50%;
     }
 
-
+    .apresent p{
+        width: 100%;
+    }
     .fotos img {
         height: 200px;
         width: 200px;
@@ -774,6 +774,7 @@ a {
         text-align: center;
         margin: 50px;
         flex-direction: column;
+        align-items: center;
     }
 
     .box2 {
