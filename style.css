@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,300&family=Noto+Sans+JP:wght@300&family=Nunito&family=Raleway:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
 
+/*navbar*/
 a {
     color: #fff;
     text-decoration: none;
@@ -39,7 +40,7 @@ nav {
 .nav-list {
     list-style: none;
     display: flex;
-    
+
 }
 
 
@@ -60,22 +61,25 @@ nav {
     margin: 8px;
     transition: 0.3s;
 }
+
 .menu-expanded {
     overflow: hidden;
-  }
-    
-  
+}
+
+
 
 @media (max-width: 999px) {
-    
-    .remove-nav-list{
+
+    .remove-nav-list {
         visibility: hidden;
-            opacity: 0;
+        opacity: 0;
     }
-    .add-nav-list{
+
+    .add-nav-list {
         visibility: visible;
         opacity: 1;
     }
+
     .nav-list {
         position: absolute;
         top: 8vh;
@@ -89,7 +93,7 @@ nav {
         /* transform: translateX(100%); */
         transition: transform 0.3s ease-in;
         color: #651716;
-        
+
     }
 
     .nav-list li {
@@ -130,6 +134,10 @@ nav {
     transform: rotate(45deg) translate(-5px, -7px);
 }
 
+/*navbar*/
+
+/*Section 1*/
+
 .iconinit {
     font-size: 45px;
     color: #BAA599
@@ -162,7 +170,7 @@ nav {
 
 
 
-/*Section 1*/
+
 
 .section1 {
     display: flex;
@@ -170,7 +178,8 @@ nav {
     background-color: #eee6df;
     padding-top: 20px;
 }
-.apresent p{
+
+.apresent p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,6 +197,7 @@ nav {
     justify-content: space-around;
 
 }
+
 .carrossel,
 .carrossel::before,
 .carrossel::after {
@@ -197,10 +207,12 @@ nav {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
-.slider img{
+
+.slider img {
     width: 100px;
     height: 100px;
 }
+
 .carrossel {
     min-height: 100vh;
     display: flex;
@@ -257,10 +269,6 @@ nav {
     justify-content: center;
 
 }
-
-
-
-
 
 /*Section 1*/
 
@@ -508,7 +516,7 @@ h3 {
     height: 700px;
 }
 
-.btn{
+.btn {
     background: none;
     border: 1PX solid #651716;
     background-color: #fff;
@@ -521,62 +529,16 @@ h3 {
     cursor: pointer;
     margin-left: 980px;
 }
+
 .btn:hover {
     background: #651716;
-    color: #fff;    
-  
-
+    color: #fff;
 }
 
 
 /*Section 5*/
 
-/*Section 6*/
-.section6{
-    background-color: #eee6df;
-    color: #651716;
-}
-.cont6 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Titillium Web', sans-serif;
-
-}
-
-.texthead {
-    margin-top: 45px;
-    margin-bottom: 45PX;
-
-
-}
-
-.icons6 {
-    font-size: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 45px;
-    text-decoration: none;
-    gap: 110px;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-.text6 {
-    color: white
-}
-
-.mapa {
-    border-radius: 30px;
-}
-
-a {
-    color: inherit;
-}
-
-/*Section 6*/
-
+/*FORMULARIO*/
 .form1 {
     display: flex;
     justify-content: center;
@@ -664,13 +626,121 @@ a {
     outline: none;
     background: #651716;
     color: #fff;
+}
+
+/*formulario*/
+
+/*Section 6*/
+.section6 {
+    color: #651716;
+    background-color: #eee6df;
 
 }
 
+.cont6 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 380px;
+    text-transform: uppercase;
+    background-image: url(./assets/GRADE.png);
+    background-position: bottom;
+    background-size: 15px;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.textmap {
+    font-size: 1.5em;
+}
+
+
+.mapa {
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    color: inherit;
+}
+
+
+/*Section 6*/
+
+/*footer*/
+
+footer {
+    background-color: #651716;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250PX;
+    color: #EEE6DF;
+    font-family: Montserrat, sans-serif;
+    
+}
+
+footer img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 45px;
+}
+
+.textfoot1 {
+    display: flex;
+    gap: 300px;
+    margin: 40px;
+
+}
+
+.textfoot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.iconfoot {
+    margin: 35PX;
+    font-size: 50PX;
+    display: flex;
+}
+
+.iconfoot a {
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 10PX;
+}
+
+/*footer*/
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIAQUERY*/
 @media screen and (max-width: 1350px) {
     .fotosimagens IMG {
         width: 200px;
@@ -684,14 +754,16 @@ a {
         padding-top: 100px;
 
     }
-    .btn{
+
+    .btn {
         margin-left: 70px;
     }
 
     .section5 {
         background-position: 1%;
     }
-    .btn{
+
+    .btn {
         margin-top: 20px;
         margin-left: 20px;
     }
@@ -755,9 +827,10 @@ a {
         background-position: 50%;
     }
 
-    .apresent p{
+    .apresent p {
         width: 100%;
     }
+
     .fotos img {
         height: 200px;
         width: 200px;
@@ -789,7 +862,8 @@ a {
     .icons {
         font-size: 30px;
     }
-    .slider-wrapper{
+
+    .slider-wrapper {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -876,7 +950,8 @@ a {
         margin: 50px;
 
     }
-    .apresent p{
+
+    .apresent p {
         font-size: x-large;
         padding: 13PX;
 
@@ -903,14 +978,15 @@ a {
     }
 
     .box1,
-    .box2, .box3 {
+    .box2,
+    .box3 {
         font-size: 1.5rem;
-       height: max-content;
+        height: max-content;
         width: fit-content;
         margin: 25px;
     }
 
- 
+
 
     .formulario {
         display: flex;
@@ -921,7 +997,8 @@ a {
         padding-top: 70px;
         padding-bottom: 40px;
     }
-    .form1{
+
+    .form1 {
         font-size: 1.5em;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
@@ -930,18 +1007,19 @@ a {
     .form {
         width: 80%;
         align-items: center;
-        
+
     }
 
     .form input,
     .form textarea {
         width: 100%;
     }
-   
-    .btn{
+
+    .btn {
         margin-top: 20px;
         margin-left: 20px;
     }
+
     .slider-wrapper {
         position: relative;
         display: flex;
@@ -950,9 +1028,10 @@ a {
         padding-top: 30PX;
         color: #651716;
     }
+
     .slider {
         --slide-width: clamp(300px, 75vw, 100px);
         --slide-height: clamp(250px, 75vh, 100px);
- }
-    
+    }
+
 }

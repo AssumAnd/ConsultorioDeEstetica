@@ -20,3 +20,5 @@ function closeMenu(){
     document.body.classList.remove('menu-expanded')
   }
 }
+
+/*alert ('Olá! Seja bem vindo')*/
