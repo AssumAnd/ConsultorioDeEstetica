@@ -1034,4 +1034,42 @@ footer img {
         --slide-height: clamp(250px, 75vh, 100px);
     }
 
+    .mapa iframe{
+        width: 90% ;
+        height: 200px;
+    }
+    .textmap{
+        font-size: 1em;
+        margin: 30px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .mapa p{
+        font-size: 1em;
+        text-align: center;
+        margin-top: 30px;
+    }
+    footer{
+        flex-direction: column;
+        height: max-content;
+        align-items: center;
+    }
+    .textfoot{
+        flex-direction: column;
+        display: flex;
+        font-size: 12px;
+    }
+    .textfoot1{
+        gap: 70PX;
+    }
+    footer img{
+        margin: 10px;
+    }
+    .cont6{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section6{
+        height: 450px;
+    }
 }
